@@ -1,8 +1,8 @@
 version: '3'
 services:
   web:
-    image: odoo:14.0
-    container_name: odoo14_compose
+    image: odoo:18.0
+    container_name: odoo18
     depends_on:
       - db
     ports:
